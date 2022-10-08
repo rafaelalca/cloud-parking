@@ -10,7 +10,7 @@ public class Parking {
     private String color;
     private LocalDateTime entryDate;
     private LocalDateTime exiteDate;
-    private double bill;
+    private boolean bill;
 
     public Parking() {
     }
