@@ -10,7 +10,7 @@ public class Parking {
     private String color;
     private LocalDateTime entryDate;
     private LocalDateTime exiteDate;
-    private double bill;
+    private Double bill;
 
     public Parking() {
     }
@@ -81,11 +81,12 @@ public class Parking {
         this.exiteDate = exiteDate;
     }
 
-    public double getBill() {
+    public Double getBill() {
         return bill;
     }
 
-    public void setBill(double bill) {
+    public void setBill(Double bill) {
         this.bill = bill;
     }
+
 }
